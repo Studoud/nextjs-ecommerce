@@ -8,6 +8,8 @@ interface HomeProps {
   searchParams: { page: string };
 }
 
+
+// test wello horld
 export default async function Home({
   searchParams: { page = "1" },
 }: HomeProps) {
